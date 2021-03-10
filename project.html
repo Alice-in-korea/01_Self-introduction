@@ -7,6 +7,8 @@
 		<script src="https://kit.fontawesome.com/c539d32fc7.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link rel="shortcut icon" href="./assets/favicon1.ico" type="image/x-icon" />
+		<link rel="icon" href="./assets/favicon1.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Alice's Page</title>
 	</head>
@@ -19,10 +21,14 @@
 					<div class="main__title">Alice's Wonderland</div>
 				</div>
 				<div class="main__icons">
-					<a href="https://www.instagram.com/1dookong/" class="main__icon main__icon--active">
+					<a
+						href="https://www.instagram.com/1dookong/"
+						class="main__icon main__icon--active"
+						target="_blank"
+					>
 						<i class="fab fa-instagram"></i>
 					</a>
-					<a href="mailto:aliceinkorea.frontend@gmail.com" class="main__icon">
+					<a href="mailto:aliceinkorea.frontend@gmail.com" class="main__icon" target="_blank">
 						<i class="far fa-envelope"></i>
 					</a>
 				</div>
@@ -42,18 +48,55 @@
 		</div>
 		<div class="card">
 			<!-- common component -->
-			<div class="card__info">
-				<img class="card__avatar" src="./assets/두콩이 펫 가족 (46).jpg" alt="dookong-avatar" />
-				<div class="card__title">Alice's Project</div>
+			<div class="card__container">
+				<div class="card__info">
+					<img class="card__avatar" src="./assets/두콩이 펫 가족 (46).jpg" alt="dookong-avatar" />
+					<div class="card__title">Alice's Project</div>
+				</div>
+				<div class="card__icons">
+					<a class="card__icon" href="https://github.com/Alice-in-korea" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+					<a class="card__icon" href="https://velog.io/@aliceinkorea" target="_blank">
+						<i class="fa fa-vimeo"></i>
+					</a>
+				</div>
 			</div>
 
 			<!-- text area -->
 			<div class="card__text">
 				<ol class="projects">
-					<li class="project"><a href="#">1. YouTube Clone</a></li>
-					<li class="project"><a href="#">2. KakaoTalk Clone</a></li>
-					<li class="project"><a href="#">3. To Do Lists</a></li>
-					<li class="project"><a href="#">4. Shopping App</a></li>
+					<li class="project">
+						<a href="#">1. YouTube Clone - One page</a>
+						<div class="project__icons">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+						</div>
+					</li>
+					<li class="project">
+						<a href="#">2. KakaoTalk Clone</a>
+						<div class="project__icons">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
+						</div>
+					</li>
+					<li class="project">
+						<a href="#">3. To Do List</a>
+						<div class="project__icons">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
+						</div>
+					</li>
+					<li class="project">
+						<a href="#">4. Shopping List App</a>
+						<div class="project__icons">
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js"></i>
+						</div>
+					</li>
 					<li class="project"><a href="#"></a></li>
 				</ol>
 			</div>
@@ -61,8 +104,9 @@
 			<!-- img area -->
 			<img class="card__img" src="./assets/project2.png" alt="project" />
 			<div class="card__divider"></div>
+
 			<!-- icons -->
-			<div class="card__icons">
+			<div class="footer">
 				<div class="card__icon">
 					<i class="fas fa-heart"></i>
 					<span class="card__likes">10</span>
