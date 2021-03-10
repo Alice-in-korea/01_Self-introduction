@@ -1,0 +1,27 @@
+.project {
+	display: flex;
+}
+
+.project__link:hover {
+	color: var(--point);
+}
+
+.project__link:active {
+	transform:scale(0.98);
+}
+
+.project__icons {
+	padding-left: var(--space-m);
+}
+
+.fa-html5 {
+	color: #eb5216;
+}
+
+.fa-css3-alt {
+	color: #0aaadb;
+}
+
+.fa-js {
+	color: #d8bb18;
+}

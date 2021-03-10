@@ -34,11 +34,16 @@
 .main__icons {
 	display: flex;
 	align-items: center;
-  font-size: var(--fs-l);
+	font-size: var(--fs-l);
 }
 
 .main__icon {
-	padding-left: var(--space-s);
+	padding: var(--space-s) var(--space-xs);
+}
+
+.main__icon:hover {
+	transform: scale(1.2);
+	color: var(--point);
 }
 
 .main__text {
@@ -52,7 +57,20 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: var(--space-s);
-	margin-top: var(--space-s);
+	margin-top: var(--space-xs);
 	font-size: var(--fs-m);
+}
+
+.main__menu {
+	padding: var(--space-s);
+	width: 80px;
+	text-align: center;
+}
+
+.main__menu:hover {
+	transform: scale(1.1);
+}
+
+.main__menu--on {
+	border-bottom: 3px solid var(--point);
 }

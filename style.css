@@ -1,9 +1,12 @@
 @import url(./reset.css);
 @import url(./components.css/main.css);
 @import url(./components.css/card.css);
+@import url(./components.css/project.css);
+
 
 :root {
 	/* color */
+	--point: rgb(255, 99, 71);
 	/* font-size */
 	--fs-s: 1rem;
 	--fs-m: 1.25rem;
