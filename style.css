@@ -3,11 +3,12 @@
 @import url(./components.css/card.css);
 @import url(./components.css/project.css);
 
-
 :root {
 	/* color */
 	--point: rgb(255, 99, 71);
 	/* font-size */
+	--fs-xxs: 0.6rem;
+	--fs-xs: 0.8rem;
 	--fs-s: 1rem;
 	--fs-m: 1.25rem;
 	--fs-l: 1.5rem;
@@ -35,7 +36,7 @@ button {
 }
 
 a {
-  text-decoration: none;
-  color: #000
+	text-decoration: none;
+	color: #000;
 }
 

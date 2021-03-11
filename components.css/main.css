@@ -1,7 +1,7 @@
 .main {
 	background-color: #fff;
 	width: 500px;
-	padding: var(--space-m);
+	padding: var(--space-m) var(--space-m) 0 var(--space-m);
 	display: flex;
 	flex-direction: column;
 	border-radius: 10px;
@@ -73,4 +73,41 @@
 
 .main__menu--on {
 	border-bottom: 3px solid var(--point);
+}
+
+/* 최대 550이상일때 */
+@media screen and (max-width: 550px) {
+	.main {
+		width: 300px;
+		padding: var(--space-s) var(--space-s) 0 var(--space-s);
+	}
+
+	.main__avatar {
+		width: 50px;
+		height: 50px;
+	}
+
+	.main__title {
+		padding-left: var(--space-xs);
+		font-size: var(--fs-s);
+	}
+
+	.main__icons {
+		font-size: var(--fs-m);
+	}
+
+	.main__icon {
+		padding: var(--space-xs) var(--space-xs);
+	}
+
+	.main__text {
+		margin-top: var(--space-s);
+		font-size: var(--fs-xs);
+		line-height: 1rem;
+	}
+
+	.main__menus {
+		margin-top: var(--space-xs);
+		font-size: var(--fs-s);
+	}
 }

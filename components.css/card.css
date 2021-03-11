@@ -51,6 +51,11 @@
 	opacity: 0.6;
 }
 
+.card__text span {
+	background-color: black;
+	color: white;
+	letter-spacing: 1px;
+}
 .card__img {
 	margin-top: var(--space-m);
 }
@@ -75,5 +80,50 @@
 
 .footer__icon > i:active {
 	transform: scale(0.9);
-	color:var(--point);
+	color: var(--point);
+}
+
+@media screen and (max-width: 550px) {
+	.card {
+		width: 300px;
+		padding: var(--space-s);
+		margin-top: var(--space-xs);
+	}
+
+	.card__avatar {
+		width: 40px;
+		height: 40px;
+	}
+
+	.card__title {
+		padding-left: var(--space-xs);
+		font-size: var(--fs-s);
+	}
+
+	.card__icons {
+		font-size: var(--fs-s);
+	}
+
+	.card__icon {
+		padding-left: var(--space-xs);
+	}
+
+	.card__text {
+		margin-top: var(--space-s);
+		font-size: var(--fs-xxs);
+		line-height: 1.2rem;
+	}
+
+	.card__img {
+		margin-top: var(--space-s);
+	}
+
+	.card__divider {
+		margin-top: var(--space-s);
+	}
+
+	.footer {
+		font-size: var(--fs-xs);
+		margin-top: var(--space-s);
+	}
 }
