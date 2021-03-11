@@ -75,11 +75,8 @@
 	margin-top: var(--space-m);
 }
 
-.footer__icon {
-}
-
 .footer__icon > i:active {
-	transform: scale(0.9);
+	transform: scale(1.2);
 	color: var(--point);
 }
 
@@ -126,4 +123,8 @@
 		font-size: var(--fs-xs);
 		margin-top: var(--space-s);
 	}
+
+	.footer__icon > i:active {
+	transform: scale(1.1);
+}
 }
