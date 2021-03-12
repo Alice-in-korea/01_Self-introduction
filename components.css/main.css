@@ -2,6 +2,7 @@
 	background-color: #fff;
 	width: 500px;
 	padding: var(--space-m) var(--space-m) 0 var(--space-m);
+	margin-top: var(--space-m);
 	display: flex;
 	flex-direction: column;
 	border-radius: 10px;
@@ -77,8 +78,12 @@
 /* 최대 550이상일때 */
 @media screen and (max-width: 34rem) {
 	.main {
-		width: 300px;
+		width: 350px;
 		padding: var(--space-s) var(--space-s) 0 var(--space-s);
+		margin-top: var(--space-s);
+		position: sticky;
+		top: -160px;
+		z-index: 99;
 	}
 
 	.main__avatar {

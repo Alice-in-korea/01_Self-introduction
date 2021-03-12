@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 550px) {
 	.card {
-		width: 300px;
+		width: 350px;
 		padding: var(--space-s);
 		margin-top: var(--space-xs);
 	}
