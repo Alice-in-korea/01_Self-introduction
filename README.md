@@ -22,4 +22,4 @@
 
 #### CSS
 - media query 적용하여 reponisve page 구현
-- flexbox, position:sticky, transform etc.
+- flexbox, position:sticky, :hover, transform etc.
