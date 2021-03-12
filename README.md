@@ -15,10 +15,10 @@
 - HTML
 
 #### JavaScript
-- Main page의 menu를 누르면 해당 section으로 이동 : scrollTo() 적용
-- Scroll하면 각 카드의 해당 menu에 stlye 적용 : intersectionOvserver() 적용
+- Main page의 menu를 누르면 해당 section으로 이동 : scrollTo()
+- Scroll하면 각 카드의 해당 menu에 stlye 적용 : intersectionOvserver()
 - ❤ 클릭하면 like count 증가 : for & array
-- Home Icon 클릭하면 상단 Main page 로 이동 : scrollTo() 적용
+- Home Icon 클릭하면 상단 Main page 로 이동 : scrollTo()
 
 #### CSS
 - media query 적용하여 reponisve page 구현
