@@ -2,14 +2,6 @@
 	display: flex;
 }
 
-.project__link:hover {
-	color: var(--point);
-}
-
-.project__link:active {
-	transform:scale(0.98);
-}
-
 .project__icons {
 	padding-left: var(--space-m);
 }
