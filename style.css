@@ -33,6 +33,15 @@ body {
 
 button {
 	font-family: inherit;
+	border: none;
+	background: transparent;
+	font-size: var(--fs-m);
+	cursor: pointer;
+	outline: none;
+}
+
+button:hover {
+	transform: scale(1.1);
 }
 
 a {
@@ -40,3 +49,7 @@ a {
 	color: #000;
 }
 
+section {
+	display: flex;
+	flex-direction: column;
+}

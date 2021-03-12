@@ -54,8 +54,11 @@
 .card__text span {
 	background-color: black;
 	color: white;
+	padding: 3px;
 	letter-spacing: 1px;
 }
+
+
 .card__img {
 	margin-top: var(--space-m);
 }
@@ -113,6 +116,7 @@
 
 	.card__img {
 		margin-top: var(--space-s);
+		width: auto;
 	}
 
 	.card__divider {
@@ -125,6 +129,6 @@
 	}
 
 	.footer__icon > i:active {
-	transform: scale(1.1);
-}
+		transform: scale(1.1);
+	}
 }

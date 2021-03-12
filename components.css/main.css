@@ -6,6 +6,9 @@
 	flex-direction: column;
 	border-radius: 10px;
 	box-shadow: 6px 6px 20px #cecccc, -6px -6px 20px #ffffff;
+	position: sticky;
+	top: -160px;
+	z-index: 99;
 }
 
 .main__container {
@@ -61,22 +64,18 @@
 	font-size: var(--fs-m);
 }
 
-.main__menu {
-	padding: var(--space-s);
+.main__menus li {
+	padding: var(--space-s) 0;
 	width: 80px;
 	text-align: center;
 }
 
-.main__menu:hover {
-	transform: scale(1.1);
-}
-
-.main__menu--on {
+.active {
 	border-bottom: 3px solid var(--point);
 }
 
 /* 최대 550이상일때 */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 34rem) {
 	.main {
 		width: 300px;
 		padding: var(--space-s) var(--space-s) 0 var(--space-s);
