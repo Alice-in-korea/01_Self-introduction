@@ -2,10 +2,11 @@
 
 > 🎯그 동안 배웠던 HTML, CSS 그리고 JavaScript 내용들을 적용하여 자기 소개 페이지를 만들기 
 
+
 ### 📝Table of Contents
 1. [About the Project](#about-the-project)
 2. [Skills](#skills)
----
+
 ## 🔎About the Project
 카드형식의 페이지에 간단한 나의 소개와 그 동안 연습했던 프로젝트 공유
 
