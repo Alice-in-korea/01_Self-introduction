@@ -82,7 +82,7 @@
 		padding: var(--space-s) var(--space-s) 0 var(--space-s);
 		margin-top: var(--space-s);
 		position: sticky;
-		top: -160px;
+		top: -105px;
 		z-index: 99;
 	}
 
