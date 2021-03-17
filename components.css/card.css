@@ -64,6 +64,7 @@
 	display: block;
 	width: 500px;
 	height: auto;
+	object-fit: cover;
 }
 
 .card__divider {
@@ -119,7 +120,8 @@
 
 	.card__img {
 		margin-top: var(--space-s);
-		width: 500px;
+		display: block;
+		width: 350px;
 		height: auto;
 		object-fit: cover;
 	}
