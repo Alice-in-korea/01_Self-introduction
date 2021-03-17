@@ -63,7 +63,7 @@
 	margin-top: var(--space-m);
 	display: block;
 	width: 100%;
-	height: intrinsic;
+	height: auto;
 }
 
 .card__divider {
