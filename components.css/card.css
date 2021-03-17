@@ -5,7 +5,6 @@
 	margin-top: var(--space-s);
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	border-radius: 10px;
 	box-shadow: 6px 6px 20px #cecccc, -6px -6px 20px #ffffff;
 }
@@ -62,7 +61,7 @@
 .card__img {
 	margin-top: var(--space-m);
 	display: block;
-	width: 500px;
+	width: 100%;
 	height: auto;
 	object-fit: cover;
 }
@@ -121,7 +120,7 @@
 	.card__img {
 		margin-top: var(--space-s);
 		display: block;
-		width: 350px;
+		width: 100%;
 		height: auto;
 		object-fit: cover;
 	}
