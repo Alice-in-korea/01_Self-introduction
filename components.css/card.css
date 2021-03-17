@@ -62,6 +62,7 @@
 .card__img {
 	margin-top: var(--space-m);
 	display: block;
+	width: 100%;
 	height: intrinsic;
 }
 
